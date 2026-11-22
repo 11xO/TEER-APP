@@ -1,0 +1,26 @@
+name: meshwark_app
+description: "TEER - خدمات ذكية"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  webview_flutter: ^4.7.0
+  webview_flutter_web: ^0.2.3+4
+  webview_flutter_android: ^3.16.0
+  webview_flutter_wkwebview: ^3.13.0
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  webview_flutter_platform_interface: ^2.15.1
+
+flutter:
+  uses-material-design: true
